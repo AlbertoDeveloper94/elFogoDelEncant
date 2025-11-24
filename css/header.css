@@ -46,6 +46,12 @@ header {
 .navbar li:last-child:hover {
   background-color: #e06363;
 }
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
 
 @media (min-width: 768px) and (max-width: 992px) {
   header {
@@ -64,6 +70,9 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 40px;
+  }
+  .hidden {
+    display: block;
   }
 }
 @media (min-width: 992px) {
@@ -112,5 +121,8 @@ header {
   .navbar li:last-child {
     padding: 10px 20px;
     border-radius: 20px;
+  }
+  .hidden {
+    display: block;
   }
 }
