@@ -1,0 +1,10 @@
+:root {
+  --bg-color-restaurant: #f0f0c7;
+}
+header {
+  border-bottom: 2px solid;
+  background-color: var(--bg-color-restaurant);
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+}
