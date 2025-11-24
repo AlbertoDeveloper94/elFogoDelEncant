@@ -22,4 +22,9 @@ header {
 .hamburguerMenu {
   width: 30%;
 }
-
+.hamburguerMenu button {
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/navigationImages/menuOpen.png");
+  background-size: cover;
+}
