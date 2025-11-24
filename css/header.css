@@ -74,7 +74,22 @@ header {
   img {
     max-width: 30%;
   }
+  .logoMenu {
+    width: 25%;
+  }
   .hamburguerMenu {
     display: none;
   }
+  .navbar {
+    width: 75%;
+    height: auto;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  
 }
