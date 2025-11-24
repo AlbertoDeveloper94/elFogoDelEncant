@@ -57,4 +57,12 @@ header {
   .hamburguerMenu {
     display: none;
   }
+  .navbar {
+    height: auto;
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
 }
