@@ -215,12 +215,8 @@ header.bgColorRestaurant {
   }
 }
 
-/* Imágenes dentro del header */
 header.bgColorRestaurant img {
   margin: 0 auto;
-}
-
-main.eventos {
 }
 
 .eventos .btn-primary {
