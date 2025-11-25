@@ -1,0 +1,8 @@
+:root {
+  --bgColorFooter: rgba(133, 84, 24, 0.9);
+  --colorPrimary: rgb(255, 255, 255);
+  --colorTitles: rgb(232, 174, 112);
+
+  --textParagraph-sm: 1.3rem;
+  --textTitles-sm: 1.7rem;
+}
