@@ -1,0 +1,30 @@
+:root {
+  /* Fondo general y superficies */
+  --bg-page: #faf5ea;
+  --bg-light: #fffaf2;
+  --bg-dark: #231711;
+
+  /* Colores marca */
+  --accent: #e46b2c;
+  --accent-soft: #f8d2ae;
+  --bgColorRestaurant: #f0f0c7;
+
+  /* Footer */
+  --bgColorFooter: rgba(133, 84, 24, 0.9);
+  --colorPrimary: #ffffff;
+  --colorTitles: #e8ae70;
+
+  /* Texto */
+  --text-main: #2b2117;
+  --text-muted: #6f6156;
+
+  /* Sombras y radios */
+  --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.2);
+  --radius-lg: 26px;
+  --radius-md: 18px;
+  --radius-pill: 999px;
+
+  /* Tipografía tamaños footer */
+  --textParagraph-sm: 1.3rem;
+  --textTitles-sm: 1.7rem;
+}
