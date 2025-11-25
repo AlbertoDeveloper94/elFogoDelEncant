@@ -697,3 +697,66 @@ h4 {
     gap: 16px;
   }
 }
+
+@media (max-width: 1024px) {
+  .event-row,
+  .event-row--image-right {
+    flex-direction: column;
+  }
+
+  .event-row__image {
+    flex: 0 0 auto;
+    min-height: 280px;
+  }
+
+  .event-row__content {
+    flex: 0 0 auto;
+    padding: 2.6rem 7vw 3rem;
+  }
+
+  .extras__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .menus-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+    grid-template-areas:
+      "principal principal"
+      "entrantes carnes"
+      "postres   bebidas";
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-events {
+    min-height: 60vh;
+    padding: 4.2rem 7vw 3.5rem;
+  }
+
+  .band-franja {
+    background-attachment: scroll;
+  }
+
+  .band-franja__glass {
+    padding: 2.2rem 1.7rem;
+  }
+
+  .extras__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .menus-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "principal"
+      "entrantes"
+      "carnes"
+      "postres"
+      "bebidas";
+  }
+
+  .menu-card {
+    min-height: 210px;
+  }
+}
