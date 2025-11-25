@@ -36,3 +36,12 @@ h4 {
 .footerAditional li {
   padding: 10px;
 }
+.address:before {
+  content: url("../Images/footerImages/address.svg");
+}
+.contact:before {
+  content: url("../Images/footerImages/phone.svg");
+}
+.schedule:before {
+  content: url("../Images/footerImages/time.svg");
+}
