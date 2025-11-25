@@ -6,3 +6,27 @@
   --textParagraph-sm: 1.3rem;
   --textTitles-sm: 1.7rem;
 }
+footer {
+  color: var(--colorPrimary);
+  background-color: var(--bgColorFooter);
+  padding: 30px;
+}
+section {
+  margin-bottom: 20px;
+}
+
+.footerInfo p,
+.contact li,
+.schedule li {
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: var(--textTitles-sm);
+  color: var(--colorTitles);
+  margin-bottom: 30px;
+}
+.footerInfo,
+.footerAditional {
+  text-align: center;
+}
