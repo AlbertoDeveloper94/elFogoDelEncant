@@ -423,3 +423,47 @@ main.eventos {
 .event-row__list li {
   margin-bottom: 0.35rem;
 }
+
+.extras {
+  padding: 3.5rem 6vw 3.8rem;
+  text-align: center;
+  background: #f5eee4;
+}
+
+.extras h2 {
+  font-size: 1.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.extras__intro {
+  max-width: 750px;
+  margin: 0 auto 2.3rem;
+  color: var(--text-muted);
+}
+
+.extras__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.extra-card {
+  background: #f3e2c9;
+  border-radius: var(--radius-md);
+  padding: 1.6rem 1.4rem;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.extra-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.02rem;
+}
+
+.extra-card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
