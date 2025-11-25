@@ -16,3 +16,9 @@ img {
 button {
   border: 0;
 }
+h4 {
+  font-weight: normal;
+}
+address {
+  font-style: normal;
+}
