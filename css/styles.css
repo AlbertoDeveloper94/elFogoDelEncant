@@ -205,3 +205,17 @@ header.bgColorRestaurant {
     width: 100%;
   }
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .logoMenu {
+    width: 70%;
+  }
+  .hamburguerMenu {
+    width: 30%;
+  }
+}
+
+/* Imágenes dentro del header */
+header.bgColorRestaurant img {
+  margin: 0 auto;
+}
