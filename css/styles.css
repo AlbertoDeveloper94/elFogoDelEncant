@@ -64,3 +64,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+header.bgColorRestaurant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #766e2b;
+  background-color: var(--bgColorRestaurant);
+  padding: 10px 20px;
+}
+
+/* Logo */
+.logoMenu {
+  width: 75%;
+  text-align: center;
+  padding: 6px 0;
+}
+
+.logoImageSize {
+  max-width: 140px;
+  height: auto;
+}
