@@ -165,7 +165,8 @@ header.bgColorRestaurant {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
   }
 
   .navbar li {
@@ -592,8 +593,10 @@ footer {
 
 .footerInfo p,
 .contact li,
-.schedule li {
-  margin-bottom: 10px;
+.schedule li,
+.footerAditional p,
+.footerAditional li {
+  margin-bottom: 12px;
 }
 
 h4 {
