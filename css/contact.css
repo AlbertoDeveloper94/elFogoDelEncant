@@ -57,6 +57,11 @@ button {
   height: 20px;
   background-color: red;
 }
+.contactSection {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
 .contactInfoEmail,
 .contactInfoPhone,
 .contactInfoAddress {
