@@ -3,3 +3,35 @@
   --bg-color-restaurant: #f0f0c7;
   --bgColorButton: #2563eb;
 }
+body {
+  background-color: rgb(203, 194, 170);
+}
+.contactSection h1,
+.contactSection h2,
+.contactContainer > p {
+  text-align: center;
+}
+input,
+textarea,
+button,
+iframe {
+  width: 100%;
+}
+form,
+.contactInfo,
+.contactMap {
+  padding: 20px;
+  background-color: var(--bg-color-restaurant);
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+.contactMarginMobile {
+  margin: 20px;
+}
+button {
+  background-color: var(--bgColorButton);
+  border-radius: 20px;
+  padding: 10px;
+  color: var(--bg-color-restaurant);
+}
