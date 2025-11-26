@@ -21,8 +21,12 @@ button,
 iframe {
   width: 100%;
 }
-input {
+input,
+textarea {
   padding: 10px;
+}
+textarea {
+  height: 150px;
 }
 input form,
 .contactInfo,
@@ -41,4 +45,41 @@ button {
   border-radius: 20px;
   padding: 10px;
   color: var(--bg-color-restaurant);
+}
+.contactInfoEmail p,
+.contactInfoPhone p,
+.contactInfoAddress p {
+  text-align: center;
+}
+.contactSection span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+.contactInfoEmail,
+.contactInfoPhone,
+.contactInfoAddress {
+  position: relative;
+}
+.contactInfoEmail h3:before {
+  content: "📩";
+  position: absolute;
+  left: -30px;
+  width: 20px;
+  height: 20px;
+}
+.contactInfoPhone h3:before {
+  content: "📞";
+  position: absolute;
+  left: -30px;
+  width: 20px;
+  height: 20px;
+}
+.contactInfoAddress h3:before {
+  content: "📍";
+  position: absolute;
+  left: -30px;
+  width: 20px;
+  height: 20px;
 }
