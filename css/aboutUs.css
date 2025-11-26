@@ -54,3 +54,16 @@
     border-radius: 20px;
     background-position: 0px 570px;
 }
+
+
+.aboutUs-imageFigure {
+    border-radius: 100px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.aboutUs-testimonio {
+    width: 600px;
+    text-align: center;
+    font-size: 12pt;
+}
