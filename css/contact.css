@@ -28,7 +28,7 @@ textarea {
 textarea {
   height: 150px;
 }
-input form,
+form,
 .contactInfo,
 .contactMap {
   padding: 20px;
@@ -87,4 +87,28 @@ button {
   left: -30px;
   width: 20px;
   height: 20px;
+}
+
+@media (min-width: 993px) {
+  .contactSection h1 {
+    font-size: 3rem;
+  }
+  .contactSection h2 {
+    font-size: 2.4rem;
+  }
+  .contactSection h3 {
+    font-size: 1.8rem;
+  }
+  .contactSection p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  input {
+    padding: 15px;
+  }
+  textarea,
+  form button {
+    padding: 20px;
+  }
+  
 }
