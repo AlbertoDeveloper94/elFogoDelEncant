@@ -1,4 +1,11 @@
-/*/ CONSTANTES /*/
+.aboutUs-main {
+    background-color: rgba(255, 253, 157, 0.2);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 90vw;
+}
+
 .aboutUs-h1 {
     margin: 0px;
     padding: 20px;
