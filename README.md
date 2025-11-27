@@ -29,7 +29,7 @@
 </ul>
 <h3>Cómo visualizar el proyecto</h3>
     <p>No se requiere instalación de dependencias ni servidor externo.</p>
-    <p>Abra el archivo <a href="https://albertodeveloper94.github.io/elFogoDelEncant/initialPage"> clic aquí para ir al <b>El Fogó de l´encant</b></a> en cualquier navegador moderno.</p>
+    <p>Abra el archivo <a href="https://albertodeveloper94.github.io/elFogoDelEncant/index"> clic aquí para ir al <b>El Fogó de l´encant</b></a> en cualquier navegador moderno.</p>
 <h3> <a href="https://www.canva.com/design/DAG5y_CfIKg/I0-pUkacwZf9nuAackfwCw/view?utm_content=DAG5y_CfIKg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf7834375db"> Presentación <b>El fogó de l´encant</b></a></h3> 
 <h3>Autores</h3>
 <ul>
