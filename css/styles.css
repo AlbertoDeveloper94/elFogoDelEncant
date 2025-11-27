@@ -62,7 +62,12 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
 header.bgColorRestaurant {
   display: flex;
   justify-content: space-between;
