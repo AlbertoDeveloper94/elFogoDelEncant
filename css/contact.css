@@ -75,21 +75,21 @@ button {
 .contactInfoEmail h3:before {
   content: "📩";
   position: absolute;
-  left: -30px;
+  left: 0;
   width: 20px;
   height: 20px;
 }
 .contactInfoPhone h3:before {
   content: "📞";
   position: absolute;
-  left: -30px;
+  left: 0;
   width: 20px;
   height: 20px;
 }
 .contactInfoAddress h3:before {
   content: "📍";
   position: absolute;
-  left: -30px;
+  left: 0;
   width: 20px;
   height: 20px;
 }
@@ -118,7 +118,6 @@ button {
   .contactFlex {
     display: flex;
     column-gap: 50px;
-    min-height: 50vh;
   }
   .contactFlex form {
     width: 50%;
@@ -134,8 +133,7 @@ button {
   }
   .contactInfo {
     width: 50%;
-    margin: auto;
-    margin-top: 40px;
+    margin: 40px auto;
   }
   .contactInfoEmail,
   .contactInfoPhone,
